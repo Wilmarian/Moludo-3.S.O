@@ -1,0 +1,18 @@
+Práctica 2
+nano /etc/crontab
+crontab -e
+crontab -l
+at now + 1 minute
+ls /tmp
+atq
+
+ls /tmp
+crontab -e
+clear
+date
+clear
+nano /etc/crontab
+crontab -e
+crontab -e
+crontab -l
+ls /tmp

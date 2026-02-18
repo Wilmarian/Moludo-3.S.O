@@ -1,0 +1,9 @@
+Practica 1
+
+sudo nano /etc/default/grub
+GRUB_TIMEOUT=20
+grub2-mkconfig -o /boot/grub2/grub.cfg
+rw init=/bin/bash
+passwd root
+touch /.autorelabel
+exec /sbin/init
